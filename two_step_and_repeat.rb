@@ -13,6 +13,7 @@ end
 
 def a_few_more_steps
   # Write a loop that outputs the first two sets of steps in the Two-Step
+  loop do
   puts "Right foot back"
     sleep(0.5)
     puts "Left foot back"
@@ -26,9 +27,8 @@ puts "Left foot crosses over right"
 puts "Right foot steps right"
 puts "Turn"
 sleep(1)
+end 
 end
-
-
 
 
 def how_many_steps?
@@ -45,6 +45,7 @@ def how_many_steps?
   sleep(0.5)
 end
 end
+
 def break_dance
   # Write a solution that uses the same code as how_many_steps?, but breaks the
   # loop if steps is equal to 6
@@ -59,7 +60,7 @@ def break_dance
   end
   steps+=1
   sleep(0.5)
-  
+end 
 end
  
 
